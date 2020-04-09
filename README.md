@@ -5,3 +5,16 @@ react js interview questions answers
 <p>The virtual DOM (VDOM) is an in-memory representation of Real DOM. The representation of a UI is kept in memory and synced with the “real” DOM. It’s a step that happens between the render function being called and the displaying of elements on the screen. This entire process is called reconciliation.
 
 </p>
+<h2>What are Higher-Order components</h2>
+<p>A higher-order component (HOC) is a function that takes a component and returns a new component. Basically, it’s a pattern that is derived from React’s compositional nature
+We call them as “pure’ components” because they can accept any dynamically provided child component but they won’t modify or copy any behavior from their input components.</p>
+
+<code>const EnhancedComponent = higherOrderComponent(WrappedComponent);</code>
+
+<h4>HOC can be used for many use cases as below,</h4>
+<ol>
+<li>Code reuse, logic and bootstrap abstraction</li>
+<li>Render High jacking</li>
+<li>State abstraction and manipulation</li>
+<li>Props manipulation</li>
+</ol>
