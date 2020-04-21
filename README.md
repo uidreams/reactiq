@@ -24,3 +24,6 @@ We call them as “pure’ components” because they can accept any dynamically
 <li>State abstraction and manipulation</li>
 <li>Props manipulation</li>
 </ol>
+
+<h4>Redux Reducer</h4>
+<p>how we specify our app state chnages in response to certain actions to stores/context</p>
